@@ -1,0 +1,108 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@200 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+.menu{
+    width: 100%;
+    background-color: #93539C;
+    text-align: center;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 20px;
+    transition: all .2s ease;
+}
+.menu ul li a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* Change the link color to #111 (black) on hover */
+li:hover {
+    background-color: #ae62b8;
+}
+body{
+    height: 130vh;
+    background: linear-gradient(to right, white 0%, white 50%, #D48AE0 50%, #D48AE0 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family:'Monserrat', sans-serif;
+}
+.row{
+    width: 50%;
+    height: 100%;
+}
+.img{
+    position: relative;
+    left: 40px;
+    right: 0;
+    top: 380px;
+    bottom: 0;
+}
+h1{ 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: white;
+/* identical to box height */
+}
+p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 35px;
+    color: white;
+    }
+.info-content{
+    width: 50%;
+    height: 100%;
+}
+.info-content h1{
+    position: relative;
+    left: 920px;
+    right: 0;
+    top: 230px;
+    bottom: 0;
+}
+.info-content p{
+    position: relative;
+    left: 780px;
+    right: 0;
+    top: 370px;
+    bottom: 0;
+}
+
+/* lineas*/
+
+#linea1{
+position: absolute;
+left: 6.88%;
+right: 57.21%;
+top: 50%;
+bottom: 100%;
+border: 0;
+border-top: 1px solid #9D63A6;
+}
+#linea2{
+position: absolute;
+left: 6.75%;
+right: 57.35%;
+top: 100%;
+bottom: 80%;
+border: 0;
+border-top: 1px solid #9D63A6;
+}
+
